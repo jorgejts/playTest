@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 30px;
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+
+    .name {
+      font-size: 20px;
+      margin-right: 30px;
+    }
+  }
+
+  .dataContainer {
+    padding: 30px;
+  }
+}
